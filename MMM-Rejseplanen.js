@@ -1,5 +1,5 @@
-/* MagicMirror Modul: MMM-RejseplanenGunnekaer */
-Module.register("MMM-RejseplanenGunnekaer", {
+/* MagicMirror Modul: MMM-Rejseplanen */
+Module.register("MMM-Rejseplanen", {
   defaults: {
     stopId: "722041100", // Gunnekær stoppested ID
     maxDepartures: 5,
@@ -27,7 +27,7 @@ Module.register("MMM-RejseplanenGunnekaer", {
         this.updateDom();
       })
       .catch((err) => {
-        console.error("MMM-RejseplanenGunnekaer:", err);
+        console.error("MMM-Rejseplanen:", err);
       });
   },
 
